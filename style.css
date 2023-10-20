@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  max-height: 40px;
+  max-width: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.logo:hover {
+  zoom: 150%;
+}
+
+.list1:hover {
+  background-color: #c0392b;
+}
+
+.list2:hover {
+  background-color: #c0392b;
+}
+
+.list3:hover {
+  background-color: #c0392b;
+}
+
+nav ul.menu {
+  list-style: none;
+}
+
+nav ul.menu li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#banner {
+  background-image: url('https://www.proglobalbusinesssolutions.com/wp-content/uploads/2019/03/Photography-Web-Banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.banner-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bannerheading1 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#about {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.owner-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.owner-card {
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.owner-card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+#contact {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+/* Style the footer menu */
+.footer-menu {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.fbimage {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+
+.footertext {
+  font-size: 15px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+}
+
+#features {
+  text-decoration: none;
+}
